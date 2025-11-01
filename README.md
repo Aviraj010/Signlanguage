@@ -34,10 +34,6 @@ signlanguage/
 ├── train_model.py # For training model on collected data
 ├── predict_live.py # For live gesture recognition
 └── README.md # Project documentation
-
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Installation
@@ -47,25 +43,24 @@ Copy code
 git clone https://github.com/yourusername/signlanguage.git
 cd signlanguage
 2. Create a Virtual Environment
-bash
-Copy code
 python -m venv venv
 # On Windows
 venv\Scripts\activate
 # On Mac/Linux
 source venv/bin/activate
+
 3. Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
+
 🧾 Example requirements.txt
-Copy code
 opencv-python
 mediapipe
 numpy
 scikit-learn
 tensorflow
+
 📚 Library Explanations
+
 opencv-python → Used for capturing webcam video and displaying frames.
 
 mediapipe → Detects and tracks hand landmarks in real-time.
@@ -78,18 +73,16 @@ tensorflow → (Optional) For deep learning-based models if you expand this proj
 
 🚀 Usage
 To collect data:
-bash
-Copy code
 python collect_data.py
+
 To train the model:
-bash
-Copy code
 python train_model.py
+
 To run live prediction:
-bash
-Copy code
 python predict_live.py
+
 🧠 How It Works
+
 The webcam captures your hand using OpenCV.
 
 MediaPipe extracts 3D hand landmarks.
@@ -101,6 +94,7 @@ Scikit-learn model (like Random Forest) is trained on this data.
 During live prediction, the trained model classifies gestures in real-time.
 
 💡 Future Enhancements
+
 Add more gestures for broader recognition.
 
 Implement deep learning models using TensorFlow/Keras.
@@ -108,5 +102,6 @@ Implement deep learning models using TensorFlow/Keras.
 Create a GUI interface for user-friendly interaction.
 
 👨‍💻 Author
+
 Aviraj Chhetri
 B.Sc. Computer Science (Hons) | Salesian College, Siliguri
