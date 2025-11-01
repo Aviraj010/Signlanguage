@@ -13,9 +13,11 @@ The system detects hand landmarks, preprocesses data, trains a model, and predic
 - Live prediction display using **OpenCV**
 - Easy to expand with custom gestures
 
----
 
+
+---
 ## 📁 Project Structure
+
 signlanguage/
 │
 ├── utils/
