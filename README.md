@@ -127,7 +127,7 @@ Feature vectors are flattened and labeled before training.
  Model Details
 
 The model uses RandomForestClassifier for simplicity and accuracy.
-Each gesture’s landmark coordinates form a 1D feature vector which is used for classification.
+Each gesture’s landmark coordinates form a 1D feature vector which is used for classification. 
 
 You can replace it with other models (e.g., SVM, KNN, Neural Network) easily.
 
