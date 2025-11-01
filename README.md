@@ -40,7 +40,7 @@ signlanguage/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/signlanguage.git
+git clone https://github.com/Aviraj010/signlanguage.git
 cd signlanguage
 2. Create a Virtual Environment
 python -m venv venv
